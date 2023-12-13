@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         dialog.setContentView(R.layout.popup_layout);
 
         ImageView closeIcon = dialog.findViewById(R.id.closeIcon);
+        ImageView changedimage = dialog.findViewById(R.id.imageView);
+
+        changedimage.setImageResource(R.drawable.imagesss);
         closeIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
